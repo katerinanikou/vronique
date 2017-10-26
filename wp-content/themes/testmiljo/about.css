@@ -1,0 +1,310 @@
+/*
+/*
+CSS FOR ABOUT US PAGE
+/*
+/*
+*/
+
+.headerimage-about p {
+  width: 100%;
+  font-family: 'Poppins';
+  font-weight: 700;
+  color: white;
+  font-size: 81px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  position: absolute; 
+  top: 43%;
+  left: 0;
+  text-align: center;
+}
+
+.headerimage-about img{
+  width: 100%;
+  height: auto;
+}
+
+
+.bigheadline-about > h4{
+  font-family: 'Poppins', Arial;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.2; /* Mobilvänligt */
+  color: #192e88;
+  text-align: center;
+  padding-top: 4%;
+  margin-bottom: 5%;
+
+}
+
+.elements-about, .elements-about-last {
+  display: flex;
+  width: 80%;
+  height: auto;
+  padding-bottom: 1.5%;
+  box-sizing: border-box;
+}
+
+.elements-contact {
+  display: flex;
+  width: 80%;
+  height: auto;
+  padding-top: 2%;
+  padding-bottom: 1.5%;
+  box-sizing: border-box;
+}
+
+/* ---------------- BLOCK 1+2 ABOUT ----------------*/
+
+.blockimageabout {
+  width: 50%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.blockparagraphabout {
+  width: 50%;
+  height: auto;
+  margin-left: 2%;
+  background-color: #192e88;
+  padding: 4%;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.blockparagraphabout > h2{
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 36px;
+  text-align: left;
+  line-height: 1.39;
+  color: #ffffff;
+
+}
+.blockparagraphabout > p {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  line-height: 1.44;
+  color: #ffffff;
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+
+
+/* ------------------------------------------*/
+
+.blockbodytext > p {
+  width: 100%;
+  text-align: center;
+  font-family: 'Poppins';
+  font-size: 34px;
+  letter-spacing: 8px;
+  color: #192e88;
+  text-transform: uppercase;
+  padding-top: 4%;
+  padding-bottom: 2%;
+}
+
+/* ------------------------------------------*/
+/* ---------------- BLOCK 3+4 ABOUT----------------*/
+.founderphoto1 {
+  width: 50%;
+  max-height: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 2%;
+}
+
+.founderphoto2 {
+  width: 50%;
+  max-height: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.blockfoundertext, .blockfoundertext2 {
+  width: 50%;
+  background-color: #192e88;
+  padding: 4%;
+  font-family: 'Poppins';
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.blockfoundertext2 { 
+  margin-left: 2%;
+}
+
+.blockfoundertext > h2 {
+  font-size: 44px;
+  line-height: 1.64;
+  text-align: left;
+  color: #ff7fdc;
+}
+
+.blockfoundertext2 > h2 {
+  font-size: 44px;
+  line-height: 1.64;
+  text-align: left;
+  color: #ff7fdc;
+}
+
+.blockfoundertext > h4 {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 2.12;
+  color: #ffffff;
+  text-align: left;
+}
+
+.blockfoundertext2 > h4 {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 2.12;
+  color: #ffffff;
+  text-align: left;
+}
+
+.blockfoundertext > p {
+  font-family: 'Open Sans';
+  font-size: 20px;
+  line-height: 1.4;
+  text-align: left;
+  color: #ffffff;
+}
+
+.blockfoundertext2 > p {
+  font-family: 'Open Sans';
+  font-size: 20px;
+  line-height: 1.4;
+  text-align: left;
+  color: #ffffff;
+}
+
+/* ------------------------------------------*/
+
+
+
+/* IPAD QUERY FOR ABOUT US */
+@media only screen and (max-width: 1024px) {
+
+  body {
+    background-color: #ffffff;
+  }
+
+  .bigheadline-about > h4 {
+    font-size: 42px;
+  }
+
+  .headerimage-about > img {
+    margin-bottom: 2%;
+  }
+
+  .headerimage-about > p {
+    font-size: 40px;
+  }
+
+  .blockparagraphabout > h2 {
+    font-size: 23px;
+  }
+
+  .blockparagraphabout > .p1 {
+    font-size: 12px;
+  }
+
+  .blockbodytext > p {
+    font-size: 26px;
+  }
+
+  .blockfoundertext > h2 {
+    font-size: 25px;
+  }
+
+  .blockfoundertext2 > h2 {
+    font-size: 25px;
+  }
+
+  .blockfoundertext > h4 {
+    font-size: 17px;
+  }
+
+  .blockfoundertext2 > h4 {
+    font-size: 17px;
+  }
+
+  .blockfoundertext > p {
+    font-size: 12px;
+  }
+
+  .blockfoundertext2 > p {
+    font-size: 12px;
+  }
+
+  .elements-about-last {
+    margin-bottom: 5%;
+  }
+
+  .blockimageabout {
+    background-position: center;
+
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 736px) {
+
+  .elements-about {
+    flex-direction: column; /*This solves everything*/
+    width: 90%;
+  }
+
+  .blockimageabout, .blockparagraphabout {
+    width: 100%;
+    margin: 0;
+  }
+
+  .blockimageabout {
+    padding-top: 100%;
+    margin-bottom: 2%;
+  }
+
+  .founderphoto1, .founderphoto2 {
+    width: 100%;
+  }
+
+  .blockfoundertext, .blockfoundertext2 {
+    width: 100%;
+    margin: 0%;
+    margin-bottom: 2%;
+  }
+  
+}
+
+@media only screen and (min-width: 1442px) and (max-width: 4000px) {
+
+  .headerimage_about > p {
+    top: 650px;
+  }
+
+  .bigheadline-about > h4 {
+        font-size: 87px;
+  }
+
+  .blockparagraphabout {
+    padding-top: 11%;
+    padding-right: 8%;
+    padding-bottom: 11%;
+    padding-left: 8%;
+  }
+
+  .blockparagraphabout > h2 {
+    font-size: 42px;
+  }
+
+  .blockparagraphabout > p {
+    font-size: 20px;
+  }
+
+}
